@@ -19,12 +19,12 @@ func (s *Square) End() Point {
 
 func (s *Square) Area() uint {
 	// implement me
-	num := s.start.x * s.start.y
+	num := s.a * s.a
 	return uint(num)
 }
 
 func (s *Square) Perimeter() uint {
 	// implement me
-	num := (s.start.x + s.start.y) * 2
+	num := (s.a + s.a) * 2
 	return uint(num)
 }
